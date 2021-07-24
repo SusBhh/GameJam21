@@ -1,0 +1,333 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 16264 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/User/Desktop/Projects/GGJ21/GameJam21/GatorJam21
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51800
+Successfully changed project path to: C:/Users/User/Desktop/Projects/GGJ21/GameJam21/GatorJam21
+C:/Users/User/Desktop/Projects/GGJ21/GameJam21/GatorJam21
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/Projects/GGJ21/GameJam21/GatorJam21/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     8132 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002093 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.265 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000996 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.126 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2250.
+Total: 2.955100 ms (FindLiveObjects: 0.370200 ms CreateObjectMapping: 0.106800 ms MarkObjects: 2.336200 ms  DeleteObjects: 0.140400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/2D Free Crystal Set/Sprites
+  artifactKey: Guid(ec0919e666ae3469f969dfe90ecdf26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites using Guid(ec0919e666ae3469f969dfe90ecdf26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d684405a9e4a805d314a35ef9074a5d') in 0.039412 seconds
+  Import took 0.123699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/2D Free Crystal Set/Documentation
+  artifactKey: Guid(678998f60cf73412eba19acf00a442fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Documentation using Guid(678998f60cf73412eba19acf00a442fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa84fbe804d50481707359cbf806a254') in 0.008685 seconds
+  Import took 0.087588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/1024/сrystal 7.png
+  artifactKey: Guid(835c78614e00f4b298be37c61ce77e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/1024/сrystal 7.png using Guid(835c78614e00f4b298be37c61ce77e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6beca11d35474c5fa92b0a5fd951b35c') in 0.299182 seconds
+  Import took 0.303112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/1024/сrystal 9.png
+  artifactKey: Guid(84c45e2cf7a25455fb600a0ac618f5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/1024/сrystal 9.png using Guid(84c45e2cf7a25455fb600a0ac618f5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997763d517a8c5cf3ea15dab1a927384') in 0.029140 seconds
+  Import took 0.032593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/1024/сrystal 1.png
+  artifactKey: Guid(ebd18de67fce64b38b3a97b37111ac56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/1024/сrystal 1.png using Guid(ebd18de67fce64b38b3a97b37111ac56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe370f63966b9c19baa78ebeea29943b') in 0.022778 seconds
+  Import took 0.054605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/1024/сrystal 8.png
+  artifactKey: Guid(589e5e57b34fe43c389e9219cec2b42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/1024/сrystal 8.png using Guid(589e5e57b34fe43c389e9219cec2b42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62591d33e41cdd1e8385c1d64fab3535') in 0.032265 seconds
+  Import took 0.071812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/1024/сrystal 1.png
+  artifactKey: Guid(ebd18de67fce64b38b3a97b37111ac56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/1024/сrystal 1.png using Guid(ebd18de67fce64b38b3a97b37111ac56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe370f63966b9c19baa78ebeea29943b') in 0.016353 seconds
+  Import took 0.020328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/1024/сrystal 6.png
+  artifactKey: Guid(c7a460d2c9dec49ca9f40413eeb7ca14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/1024/сrystal 6.png using Guid(c7a460d2c9dec49ca9f40413eeb7ca14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644526a9f0f5a2d9808e8420e5838e3f') in 0.029440 seconds
+  Import took 0.033340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/1024/сrystal 2.png
+  artifactKey: Guid(9d1eded92b3aa4b44ac7dab40ae2d3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/1024/сrystal 2.png using Guid(9d1eded92b3aa4b44ac7dab40ae2d3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6429aee8475a5963e8cf16ff616184d4') in 0.040779 seconds
+  Import took 0.048710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/2D Free Crystal Set
+  artifactKey: Guid(56f8b7b475f524edb91f02dca5d9a4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set using Guid(56f8b7b475f524edb91f02dca5d9a4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81d654b4014c8e6ea64826e799fc1d8') in 0.010277 seconds
+  Import took 0.014431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/1024/сrystal 2.png
+  artifactKey: Guid(9d1eded92b3aa4b44ac7dab40ae2d3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/1024/сrystal 2.png using Guid(9d1eded92b3aa4b44ac7dab40ae2d3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6429aee8475a5963e8cf16ff616184d4') in 0.021577 seconds
+  Import took 0.025987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/1024/сrystal 5.png
+  artifactKey: Guid(b16d1b72b5d0e47f7b08c03f0019b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/1024/сrystal 5.png using Guid(b16d1b72b5d0e47f7b08c03f0019b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11559408bfbf43ff605b19a9ccd890ee') in 0.165366 seconds
+  Import took 0.215105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/1024
+  artifactKey: Guid(64034ae4101724c50ab6d5ef071447ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/1024 using Guid(64034ae4101724c50ab6d5ef071447ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c7dfe067661e55a033657a90ecdc52') in 0.009492 seconds
+  Import took 0.083641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/1024/сrystal 3.png
+  artifactKey: Guid(aca352227a855475f84271f140aa0fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/1024/сrystal 3.png using Guid(aca352227a855475f84271f140aa0fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c45d2bc20aa7fd1788e7e513f3409c') in 0.027597 seconds
+  Import took 0.081492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/1024/сrystal 4.png
+  artifactKey: Guid(8bdef4bccc450441fa3422819eb08cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/1024/сrystal 4.png using Guid(8bdef4bccc450441fa3422819eb08cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa80a58b24d678b70275691f7d1f086') in 0.153835 seconds
+  Import took 0.244875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2621.068709 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(5cc60bef5635142b7a5a7c8899e77813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(5cc60bef5635142b7a5a7c8899e77813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9729627eac46d956a14d2a05524af6b') in 0.067455 seconds
+  Import took 0.159153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1824.103688 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf595eaeb10e7fcd37cdd758b995f25') in 0.266731 seconds
+  Import took 0.328565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.584275 seconds.
+  path: Assets/Scenes/crystal.unity
+  artifactKey: Guid(1bcafc11838263248a01393f71c6dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/crystal.unity using Guid(1bcafc11838263248a01393f71c6dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a95cf58cf61ee15c7a2157af953dcb') in 0.063907 seconds
+  Import took 0.071066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.959391 seconds.
+  path: Assets/2D Free Crystal Set/Scene
+  artifactKey: Guid(088156c0d740d4d3eab33a2b599dda7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Scene using Guid(088156c0d740d4d3eab33a2b599dda7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a73a2c4d7053654404843c517c01ab1') in 0.019016 seconds
+  Import took 0.115153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.016984 seconds.
+  path: Assets/Scenes/CrystalScene.unity
+  artifactKey: Guid(1bcafc11838263248a01393f71c6dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CrystalScene.unity using Guid(1bcafc11838263248a01393f71c6dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1780286e97473ddc0dc84fdccf7d9deb') in 0.020790 seconds
+  Import took 0.046389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2060.245327 seconds.
+  path: Assets/Scenes/Image.prefab
+  artifactKey: Guid(fab5c476a3b5aaa468ea075166fcd941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Image.prefab using Guid(fab5c476a3b5aaa468ea075166fcd941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fa4fdb8b9c2ef72ed2a6d3f32a4146') in 0.227789 seconds
+  Import took 0.319084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2972.145050 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/512
+  artifactKey: Guid(b5d48695a4d744ebd8038a526dadf5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/512 using Guid(b5d48695a4d744ebd8038a526dadf5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfcbea3f5f219f2b57447dff12fdc92') in 0.022694 seconds
+  Import took 0.137168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/512/сrystal 6.png
+  artifactKey: Guid(0bedc5e6d2dfb4984bd3080856ad4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/512/сrystal 6.png using Guid(0bedc5e6d2dfb4984bd3080856ad4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b253808f3227b8f22dbd58f614716e2') in 0.212475 seconds
+  Import took 0.274794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001140 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/512/сrystal 7.png
+  artifactKey: Guid(56cacee8850174792979792f5f39ef3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/512/сrystal 7.png using Guid(56cacee8850174792979792f5f39ef3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84125dd0a2135a59922595de34691187') in 0.140907 seconds
+  Import took 0.197575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001233 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/512/сrystal 1.png
+  artifactKey: Guid(ebe01107454174e5f87008c07eb70e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/512/сrystal 1.png using Guid(ebe01107454174e5f87008c07eb70e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7a2193459b740cce3fb826c499d881') in 0.143897 seconds
+  Import took 0.184357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001080 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/512/сrystal 3.png
+  artifactKey: Guid(5d581d4bef9274c588de12a46c12e708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/512/сrystal 3.png using Guid(5d581d4bef9274c588de12a46c12e708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a2670f32438ff5b52de205054a0f30') in 0.080756 seconds
+  Import took 0.091904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/512/сrystal 8.png
+  artifactKey: Guid(9341b63a881364e709624cfe01039833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/512/сrystal 8.png using Guid(9341b63a881364e709624cfe01039833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2682e13979455a3c377debc5556e1d') in 0.175550 seconds
+  Import took 0.182736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/512/сrystal 4.png
+  artifactKey: Guid(ae70d5f1d23f14f36b7aa2bd254a8853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/512/сrystal 4.png using Guid(ae70d5f1d23f14f36b7aa2bd254a8853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00fa7bae8c8dacf683d4badb9c8b7bf') in 0.118313 seconds
+  Import took 0.206586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/512/сrystal 5.png
+  artifactKey: Guid(4b9a0895740ad4ce0bb4d663a9bb4474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/512/сrystal 5.png using Guid(4b9a0895740ad4ce0bb4d663a9bb4474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0029c68860b623b89fbe18deba2b34') in 0.138794 seconds
+  Import took 0.151118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/512/сrystal 9.png
+  artifactKey: Guid(6aaa7c7b5d2a041688ed47be1f78b31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/512/сrystal 9.png using Guid(6aaa7c7b5d2a041688ed47be1f78b31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c600dcf82f1797275404c50ed58ad69') in 0.151819 seconds
+  Import took 0.198795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/2D Free Crystal Set/Sprites/512/сrystal 2.png
+  artifactKey: Guid(685fb87b86fec42558c05979b75ff2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Free Crystal Set/Sprites/512/сrystal 2.png using Guid(685fb87b86fec42558c05979b75ff2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1865bee0cbb4dd0df7c2783ee380d4') in 0.122754 seconds
+  Import took 0.142471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4623.047122 seconds.
+  path: Assets/Crystal
+  artifactKey: Guid(52684356031ef0c45a1a0dc4f34eedf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal using Guid(52684356031ef0c45a1a0dc4f34eedf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da859934810e92d39deb0c58027af2ea') in 0.016270 seconds
+  Import took 0.151631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Crystal/Background.jpg
+  artifactKey: Guid(d7c77792263d58d4e8a06cabc64c7a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crystal/Background.jpg using Guid(d7c77792263d58d4e8a06cabc64c7a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20532493bbaf945679dd4c11a4e4e255') in 0.172450 seconds
+  Import took 0.206295 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
