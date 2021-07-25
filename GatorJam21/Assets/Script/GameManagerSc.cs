@@ -20,11 +20,11 @@ public class GameManagerSc : MonoBehaviour
     private int grade;
     private int attempt;
     private int target;
-
-    public int level;
+    //public int level;
     public Text gradeText;
     public Text attemptText;
     public Text targetText;
+    public Image exploreImage;
     public State GetState { 
         set { state = value; }
         get { return state; }
@@ -39,9 +39,9 @@ public class GameManagerSc : MonoBehaviour
         sparkle = light.GetChild(0).GetChild(0);
         lightLength = 1;
         grade = 0;
-        attempt = 20;
-        target = 50;
-        level = 1;
+        attempt = 15;
+        target = 100;
+        //level = 1;
     }
 
     // Update is called once per frame
@@ -49,7 +49,9 @@ public class GameManagerSc : MonoBehaviour
     {
         if (grade >= target) {
             //win and go to story
-            level++;
+            //PlayerPrefs.SetInt("lev", 2);
+            //level++;
+            exploreImage.gameObject.SetActive(true);
         }
         if (attempt <= 0) { 
             //lose and reset current level
@@ -115,22 +117,22 @@ public class GameManagerSc : MonoBehaviour
         int num = 0;
         switch (tag) {
             case "red":
-                num = 15;
+                num = 40;
                 break;
             case "pink":
-                num = 25;
+                num = 35;
                 break;
             case "purple":
                 num = 30;
                 break;
-            case "yello":
+            case "yellow":
                 num = 30;
                 break;
             case "blue":
-                num = 35;
+                num = 25;
                 break;
             case "green":
-                num = 40;
+                num = 15;
                 break;
         }
         return num;
