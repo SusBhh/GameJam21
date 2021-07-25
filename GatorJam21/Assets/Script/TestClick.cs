@@ -8,6 +8,6 @@ public class TestClick : MonoBehaviour
 {
     public void onClick()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 }

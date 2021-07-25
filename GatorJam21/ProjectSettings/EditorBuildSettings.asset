@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/MemoryWall.unity
-    guid: afa628df7e1473f4bbf98e18dc99e185
-  - enabled: 1
     path: Assets/Scenes/CrystalScene.unity
     guid: 1bcafc11838263248a01393f71c6dd52
+  - enabled: 1
+    path: Assets/Scenes/MemoryWall.unity
+    guid: afa628df7e1473f4bbf98e18dc99e185
   m_configObjects: {}
