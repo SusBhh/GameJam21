@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum State { 
     Rock,
@@ -16,7 +17,14 @@ public class GameManagerSc : MonoBehaviour
     private Transform light;
     private Transform sparkle;
     private float lightLength;
+    private int grade;
+    private int attempt;
+    private int target;
 
+    public int level;
+    public Text gradeText;
+    public Text attemptText;
+    public Text targetText;
     public State GetState { 
         set { state = value; }
         get { return state; }
@@ -30,11 +38,22 @@ public class GameManagerSc : MonoBehaviour
         light = wand.GetChild(0);
         sparkle = light.GetChild(0).GetChild(0);
         lightLength = 1;
+        grade = 0;
+        attempt = 20;
+        target = 50;
+        level = 1;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (grade >= target) {
+            //win and go to story
+            level++;
+        }
+        if (attempt <= 0) { 
+            //lose and reset current level
+        }
         if (state == State.Rock)
         {
             Rock();
@@ -49,6 +68,10 @@ public class GameManagerSc : MonoBehaviour
         else if (state == State.Shorten) {
             Shorten();
         }
+
+        gradeText.text = grade.ToString();
+        attemptText.text = attempt.ToString();
+        targetText.text = target.ToString();
     }
 
     private void Rock() {
@@ -74,10 +97,44 @@ public class GameManagerSc : MonoBehaviour
     private void Shorten() {
         if (lightLength < 1) {
             state = State.Rock;
+            attempt--;
+            if (sparkle.childCount != 0)
+            {
+                grade += GetGrade(sparkle.GetChild(0).tag);
+                Destroy(sparkle.GetChild(0).gameObject);
+            }
+            sparkle.GetComponent<Collider2D>().enabled = true;
             return;
         }
         lightLength -= Time.deltaTime * 60;
         light.localScale = new Vector3(light.localScale.x, lightLength, light.localScale.z);
         sparkle.localScale = new Vector3(light.localScale.x, 1 / lightLength, light.localScale.z);
     }
+
+    private int GetGrade(string tag) {
+        int num = 0;
+        switch (tag) {
+            case "red":
+                num = 15;
+                break;
+            case "pink":
+                num = 25;
+                break;
+            case "purple":
+                num = 30;
+                break;
+            case "yello":
+                num = 30;
+                break;
+            case "blue":
+                num = 35;
+                break;
+            case "green":
+                num = 40;
+                break;
+        }
+        return num;
+    }
+
+
 }

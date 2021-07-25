@@ -9,5 +9,10 @@ public class CheckObjects : MonoBehaviour
         other.transform.parent = transform;
         //other.enabled = false;
         transform.root.GetComponent<GameManagerSc>().GetState = State.Shorten;
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            transform.GetChild(i).GetComponent<Collider2D>().enabled = false;
+        }
+        transform.GetComponent<Collider2D>().enabled = false;
     }
 }
